@@ -1,0 +1,17 @@
+.form-container{
+    margin: 20px 0;
+    display: flexbox;
+    flex-direction: column;    
+}
+
+input{
+    display: block;
+    margin: 15px 0;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+button{
+    padding: 10px 55px;
+}

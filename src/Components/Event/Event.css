@@ -1,0 +1,44 @@
+.event-container{
+    background-color: black;
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0;
+}
+
+h1{
+    margin: 0;
+}
+
+.event-info{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    background-color: cadetblue;
+    justify-content: center;
+    text-align: center;
+}
+
+.event-info-text{
+    font-family: sans-serif;
+    margin: 5px 0;
+}
+
+.event-details{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: darkkhaki;
+    text-align: center;
+}
+
+.event-details-text{
+    font-family: sans-serif;
+    margin: 5px 0;
+}
+
+.event-details-text.title{
+    font-weight: bold;
+    font-size: 24px;
+}
